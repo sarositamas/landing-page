@@ -7,40 +7,56 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Landing Page</title>
 </head>
-
+ 
 <body>
 <div class="header">
+    <img id="d-code" src="./images/d-code-logo.png" alt="d-code-logo">
     <ul>
-        <img src="./images/d-code-logo.png" alt="d-code-logo">
-        <li><a href="https://www.ducduckgo.com">SEARCH</a></li>
-        <li><a href="https://www.ducduckgo.com">SEARCH</a></li>
-        <li><a href="https://www.ducduckgo.com">SEARCH</a></li>
+        <li><a href="#languages">Programming languages</a></li>
+        <li><a href="#inspirational">My inspiration</a></li>
+        <li><a href="#contact-me">Contact me</a></li>
     </ul>
 </div>
 
 <div class="body-one">
-    <h1>Welcome to my webpage!</h1>
-    <p>This is the first website I have created using all my knowledge of HTML and CSS. I am so far away from being a full stack developer. At the other hand two moths ago I knew nothing about web development.</p>
-    <button>Message me</button>
-    <img src="./images/james-markosborne-html.jpg" alt="html-code">
+    <div class="body-one-left">
+        <h1>Welcome to my webpage!</h1>
+        <p class="welcome">This is the first website I have created using all my knowledge of HTML and CSS. I am so far away from being a full stack developer. At the other hand two moths ago I knew nothing about web development.</p>
+        <button class="button-one">Message me</button>
+    </div>
+    <img id="html-code" src="./images/james-markosborne-html.jpg" alt="html-code">
 </div>
 
 
 <div class="body-two">
-    <h2>Languages of the internet</h2>
-    <img class="logo" src="./images/HTML5.png" alt="html-logo">
-    <img class="logo" src="./images/CSS3.png" alt="css-logo">
-    <img class="logo" src="./images/JS.png" alt="js-logo">
-    <img class="logo" src="./images/ruby-on-rails.png" alt="ruby-on-rails-logo">
+    <h2 id="languages">Languages of the internet</h2>
+    <div class="logo-line">
+        <img class="logo" src="./images/HTML5.png" alt="html-logo">
+        <img class="logo" src="./images/CSS3.png" alt="css-logo">
+        <img class="logo" src="./images/JS.png" alt="js-logo">
+        <img class="logo" src="./images/ruby-on-rails.png" alt="ruby-on-rails-logo">
+    </div>
 
-    <p class="p-logo">HTML5 is a markup language used for structuring and presenting content on the World Wide Web.</p>
-    <p class="p-logo">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
-    <p class="p-logo">JavaScript is a scripting or programming language that allows you to implement complex features on web pages.</p>
-    <p class="p-logo">Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License.</p>
+    <div class="logo-text">
+        <p class="p-logo">HTML5 is a markup language used for structuring and presenting content on the World Wide Web.</p>
+        <p class="p-logo">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+        <p class="p-logo">JavaScript is a scripting or programming language that allows you to implement complex features on web pages.</p>
+        <p class="p-logo">Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License.</p>
+    </div>
 </div>
 
-<div class="body-three"></div>
-<div class="body-four"></div>
+<div id="inspirational" class="body-three">
+    <div class="quote">
+        <div class="inspirational">“Whether you think you can, or you think you can't--you're right.”</div>
+        <div class="person">Henry Ford</div>
+    </div>
+</div>
+
+<div class="body-four">
+    <h3 id="contact-me">Let me know what you think</h3>
+    <p>Pressing this button let you communicace with me.</p>
+    <button class="button-two">Message d-code</button>
+</div>
 
 <div class="footer">Copyright © d-code 2021</div>  
 </body>

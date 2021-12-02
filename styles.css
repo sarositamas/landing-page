@@ -1,7 +1,156 @@
+
+body{
+    text-align: center ;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+#d-code{
+    padding-top: 16px;
+    padding-left: 36px;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color:#F9FAF8;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+ul{
+    display: flex;
+    padding-top: 36px;
+    padding-right: 56px;
+    gap: 24px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 56px;
+    text-align: left;
+}
+
+#html-code{
+    height: 300px;
+    width: auto;
+    padding-top: 32px;
+    padding-right:56px ;
+}
+
+h2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.body-one{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background-color: #1F2937;
+}
+
+.welcome{
+    width: 500px;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 56px;
+    text-align: left;
+}
+
+.body-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-line{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
 .logo{
-    width: 300px;
+    width: 200px;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 24px 0 56px 0;
 }
 
 .p-logo{
-    width: 300px;
+    width: 200px;
+}
+
+
+.languages{
+    align-self: center;
+}
+
+.body-three{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.inspirational{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.person{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.body-four{
+    height: 300px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 20px;
+    height: 100px;
+}
+
+.button-one{
+    background-color: #3882F6;
+    text-align: center;
+    padding:16px;
+    color: #F9FAF8;
+    font-size: #26px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
 }
