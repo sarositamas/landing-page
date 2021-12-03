@@ -103,9 +103,15 @@ h2{
 .body-three{
     height: 400px;
     display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.quote{
+    text-align: right;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #e5e7eb;
 }
 
 .inspirational{
@@ -117,8 +123,7 @@ h2{
 .person{   
     font-size: 26px;
     font-weight: 700;
-    margin-top: 16px;
-    text-align-last:justify;
+    margin-top: 16px;   
 }
 
 .body-four{
@@ -146,19 +151,6 @@ h3{
     color: #F9FAF8;
 }
 
-.button-two{
-    text-align: center;
-    padding:16px;
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-color: #F9FAF8;
-    border-style:solid;
-    border-radius: 12px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-
 .footer{
     display: flex;
     justify-content: center;
@@ -180,6 +172,27 @@ h3{
     border: none;
     ffont-weight: 600;ont-weight: 600;
     margin-left:56px;
+    cursor: pointer;
+}
 
+.button-two{
+    text-align: center;
+    padding:16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style:solid;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logo:hover{
+    border-style: solid;
+    border-color: red;
+    border-radius: 50%;
+    border-width: 2px;
+    width: 196px;
 }
 
